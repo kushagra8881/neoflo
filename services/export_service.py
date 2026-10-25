@@ -4,7 +4,7 @@ import io
 import zipfile
 from pathlib import Path
 from typing import List, Dict, Any
-import fitz  # PyMuPDF
+import pymupdf as fitz
 from pipeline.config import PROCESSED_DIR
 from pipeline.document_assembler import LogicalDocument
 
