@@ -1,0 +1,13 @@
+.env
+.k
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+data/uploads/*
+data/processed/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+.ipynb_checkpoints
+.DS_Store
